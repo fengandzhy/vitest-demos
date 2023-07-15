@@ -6,7 +6,9 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
     test: {
-        /* for example, use global to avoid globals imports (describe, test, expect): */
-        // globals: true,
+        coverage: {
+            provider: 'istanbul', // or 'v8'
+            reporter: ['text', 'json', 'html']
+        },
     },
 })
