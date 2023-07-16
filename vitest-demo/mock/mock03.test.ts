@@ -1,6 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { Client } from 'pg';
-// @ts-ignore
 import { failure, success } from './handlers.js';
 
 
