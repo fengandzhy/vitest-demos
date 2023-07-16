@@ -1,3 +1,4 @@
+// @ts-ignore
 import { rest } from "msw";
 
 // mock data
